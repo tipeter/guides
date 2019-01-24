@@ -188,3 +188,12 @@ sys-apps/ripgrep * ~*
 
 # emerge --ask sys-apps/ripgrep
 ```
+
+### Installing Geany
+
+```bash
+# echo "dev-util/geany * ~*" > /etc/portage/package.accept_keywords/geany
+# echo "dev-util/geany-plugins * ~*" > /etc/portage/package.accept_keywords/geany-plugins
+# echo "x11-themes/geany-themes * ~*" > /etc/portage/package.accept_keywords/geany-themes
+# emerge --ask dev-util/geany dev-util/geany-plugins x11-themes/geany-themes media-fonts/fira-code
+```
