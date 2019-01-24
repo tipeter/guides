@@ -145,7 +145,7 @@ rustup self update
 rustup update
 
 rustup component add rls-preview rust-analysis rust-src rustfmt-preview
-cargo install racer cargo-update rustsym
+cargo install sccache racer cargo-update cargo-make rustsym
 ```
 
 *Optional - install LXDE*
