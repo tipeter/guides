@@ -3,7 +3,7 @@
 ## Rust installation
 
 ```
-rustup component add rls rust-analysis rust-src rustfmt
+rustup component add rls rust-analysis rust-src rustfmt clippy
 cargo install sccache racer cargo-update cargo-make rustsym
 ```
 
