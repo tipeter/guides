@@ -21,6 +21,10 @@ git commit -m "Add project files"
 ``` 
 git remote add origin https://github.com/c0ldlimit/vimcolors.git
 git push origin master
+
+git branch --set-upstream-to=origin/master master
+
+git pull
 ```
 
 Force overwriting existing files:
