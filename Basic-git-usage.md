@@ -32,3 +32,10 @@ Force overwriting existing files:
 ```
 git push -f origin master
 ```
+
+# Global settings for line endings
+
+``` 
+git config --global core.autocrlf input
+``` 
+
